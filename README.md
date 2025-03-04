@@ -78,7 +78,7 @@ CMD ["python", "gateway.py"]
 ### 4. Creating the .env File
 ```ini
 # .env
-API_ENDPOINT=http://localhost:5000
+API_ENDPOINT=http://API_ENDPOINT:5000
 API_KEY=your_api_key_here
 ```
 
@@ -106,4 +106,4 @@ This will return:
 ---
 
 ## Conclusion
-This guide provides a step-by-step approach to creating, wrapping, and deploying a script in a structured monorepo. The same methodology can be applied to more complex scripts like the Wappalyzer scanner.
+This guide provides a step-by-step approach to creating, wrapping, and deploying a script in a structured monorepo. The same methodology can be applied to more complex scripts.
